@@ -15,7 +15,14 @@ public class ActividadClone {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Celulares");
+        
+        Huawei objeto = new Huawei();
+        objeto.setColor("blanco");
+        System.out.println(objeto.getColor());
+        objeto.setSerial("52656565");
+        System.out.println(objeto.getSerial());
+        
     }
     
 }
